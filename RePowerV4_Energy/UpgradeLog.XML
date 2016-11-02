@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type='text/xsl' href='_UpgradeReport_Files/UpgradeReport.xslt'?><UpgradeLog>
+<Properties><Property Name="Solution" Value="RePowerV">
+</Property><Property Name="解决方案文件" Value="E:\SpeechOcean\RePowerV2\RePowerV2\RePowerV.sln">
+</Property><Property Name="用户选项文件" Value="E:\SpeechOcean\RePowerV2\RePowerV2\RePowerV.suo">
+</Property><Property Name="Date" Value="2016年2月24日">
+</Property><Property Name="Time" Value="21:28">
+</Property></Properties><Event ErrorLevel="0" Project="" Source="RePowerV.sln" Description="文件已成功备份为 E:\SpeechOcean\RePowerV2\RePowerV2\Backup\RePowerV.sln">
+</Event><Event ErrorLevel="0" Project="" Source="RePowerV.suo" Description="文件已成功备份为 E:\SpeechOcean\RePowerV2\RePowerV2\Backup\RePowerV.suo">
+</Event><Event ErrorLevel="0" Project="RePowerV" Source="RePowerV.csproj" Description="项目文件已成功备份为 E:\SpeechOcean\RePowerV2\RePowerV2\Backup\RePowerV.csproj">
+</Event><Event ErrorLevel="0" Project="RePowerV" Source="FormMain.cs" Description="文件已成功备份为 E:\SpeechOcean\RePowerV2\RePowerV2\Backup\FormMain.cs">
+</Event><Event ErrorLevel="0" Project="RePowerV" Source="FormMain.Designer.cs" Description="文件已成功备份为 E:\SpeechOcean\RePowerV2\RePowerV2\Backup\FormMain.Designer.cs">
+</Event><Event ErrorLevel="0" Project="RePowerV" Source="Program.cs" Description="文件已成功备份为 E:\SpeechOcean\RePowerV2\RePowerV2\Backup\Program.cs">
+</Event><Event ErrorLevel="0" Project="RePowerV" Source="Properties\AssemblyInfo.cs" Description="文件已成功备份为 E:\SpeechOcean\RePowerV2\RePowerV2\Backup\Properties\AssemblyInfo.cs">
+</Event><Event ErrorLevel="0" Project="RePowerV" Source="Properties\Resources.Designer.cs" Description="文件已成功备份为 E:\SpeechOcean\RePowerV2\RePowerV2\Backup\Properties\Resources.Designer.cs">
+</Event><Event ErrorLevel="0" Project="RePowerV" Source="Properties\Settings.Designer.cs" Description="文件已成功备份为 E:\SpeechOcean\RePowerV2\RePowerV2\Backup\Properties\Settings.Designer.cs">
+</Event><Event ErrorLevel="0" Project="RePowerV" Source="Properties\Settings.settings" Description="文件已成功备份为 E:\SpeechOcean\RePowerV2\RePowerV2\Backup\Properties\Settings.settings">
+</Event><Event ErrorLevel="0" Project="RePowerV" Source="FormMain.resx" Description="文件已成功备份为 E:\SpeechOcean\RePowerV2\RePowerV2\Backup\FormMain.resx">
+</Event><Event ErrorLevel="0" Project="RePowerV" Source="Properties\Resources.resx" Description="文件已成功备份为 E:\SpeechOcean\RePowerV2\RePowerV2\Backup\Properties\Resources.resx">
+</Event><Event ErrorLevel="0" Project="RePowerV" Source="RePowerV.csproj" Description="项目已成功转换">
+</Event><Event ErrorLevel="3" Project="RePowerV" Source="RePowerV.csproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="" Source="RePowerV.sln" Description="成功转换解决方案">
+</Event><Event ErrorLevel="3" Project="" Source="RePowerV.sln" Description="Converted">
+</Event><Event ErrorLevel="0" Project="RePowerV" Source="RePowerV.csproj" Description="扫描完成: 项目文件不需要升级。">
+</Event></UpgradeLog>
