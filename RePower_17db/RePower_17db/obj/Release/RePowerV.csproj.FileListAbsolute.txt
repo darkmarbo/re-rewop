@@ -86,3 +86,12 @@ D:\bdy\项目-源码\RePower_17db\RePower_17db\obj\Release\RePowerV.csprojResolv
 D:\bdy\项目-源码\RePower_17db\RePower_17db\obj\Release\RePowerV.FormMain.resources
 D:\bdy\项目-源码\RePower_17db\RePower_17db\obj\Release\RePowerV.Properties.Resources.resources
 D:\bdy\项目-源码\RePower_17db\RePower_17db\obj\Release\RePowerV.csproj.GenerateResource.Cache
+D:\bdy\项目-源码\RePower\RePower_17db\RePower_17db\obj\Release\RePowerV.exe
+D:\bdy\项目-源码\RePower\RePower_17db\RePower_17db\obj\Release\RePowerV.pdb
+D:\bdy\项目-源码\RePower\RePower_17db\RePower_17db\obj\Release\RePowerV.FormMain.resources
+D:\bdy\项目-源码\RePower\RePower_17db\RePower_17db\obj\Release\RePowerV.Properties.Resources.resources
+D:\bdy\项目-源码\RePower\RePower_17db\RePower_17db\obj\Release\RePowerV.csproj.GenerateResource.Cache
+D:\bdy\项目-源码\RePower\RePower_17db\RePower_17db\bin\Release\RePowerV.exe
+D:\bdy\项目-源码\RePower\RePower_17db\RePower_17db\bin\Release\RePowerV.pdb
+D:\bdy\项目-源码\RePower\RePower_17db\RePower_17db\bin\Release\AudioSuite.dll
+D:\bdy\项目-源码\RePower\RePower_17db\RePower_17db\bin\Release\AudioSuite.xml

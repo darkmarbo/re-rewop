@@ -39,13 +39,11 @@ namespace RePowerV
         #region Custom Functions
         private void SetAllEnabled(bool value)
         {
-            btSrc.Enabled = value;
+            
             btTgt.Enabled = value;
-            btClear.Enabled = value;
+           
             nUDChnIn.Enabled = value;
             nUDChnOut.Enabled = value;
-            nUDIgnore.Enabled = value;
-            nUDFrameTime.Enabled = value;
             btOut.Enabled = value;
             tBOut.Enabled = value;
         }
@@ -298,7 +296,7 @@ int     stt         = 0;
         int AdjustAmpX(ref short[,] data, int SampleRate)
         {
             double V0 = 32767.0;
-            double db_17 = -17.0;
+            
             // data数据里面对应的channel 
             int chnl = selectedChannelOut;
             if (chnl >= data.GetLength(0))
@@ -405,22 +403,6 @@ int     stt         = 0;
         private short Max16 = 30000;
         private double Rate16 = 1.0;
         
-        private void btSrc_Click(object sender, EventArgs e)
-        {
-            using (OpenFileDialog odlg = new OpenFileDialog())
-            {
-                odlg.Filter = "WAV Files|*.wav|All Files|*.*";
-                odlg.Multiselect = true;
-                if (odlg.ShowDialog() == DialogResult.OK)
-                {
-                    lBMode.SuspendLayout();
-                    lBMode.Items.Clear();
-                    for (int i = 0; i < odlg.FileNames.Length; i++)
-                        lBMode.Items.Add(odlg.FileNames[i]);
-                    lBMode.ResumeLayout();
-                }
-            }
-        }
 
         
         private void btTgt_Click(object sender, EventArgs e)
@@ -452,10 +434,6 @@ int     stt         = 0;
                     return;
                 }
 
-                intmode = tbmodeint.Text;
-                intfile = tbdataint.Text;
-
-                vofile = tbvo.Text;
                 StringBuilder errBuiler = new StringBuilder();
                 //if (lBMode.Items.Count == 0)
                 //    errBuiler.AppendLine("模板音频不能为空");
@@ -475,9 +453,9 @@ int     stt         = 0;
                 {
                     return;
                 }
-                srcList.Clear();
+                
                 tgtList.Clear();
-                foreach (string src in lBMode.Items) srcList.Add(src);
+                
                 
                 DirectoryInfo dir = new DirectoryInfo(tbwav.Text);
                 in_wav_dir = dir.FullName;
@@ -490,8 +468,8 @@ int     stt         = 0;
                 if(Directory.Exists(outputPath)) Directory.CreateDirectory(outputPath);
                 selectedChannelIn = Convert.ToInt32(nUDChnIn.Value);
                 selectedChannelOut = Convert.ToInt32(nUDChnOut.Value);
-                ignoreSample = Convert.ToInt32(nUDIgnore.Value);
-                frametime = Convert.ToDouble(nUDFrameTime.Value);
+                db0 = Convert.ToDouble(dbText.Text);
+
 
                 SetAllEnabled(false);
                 btDo.Text = "取消";
@@ -505,11 +483,6 @@ int     stt         = 0;
             }
         }
 
-        private void btClear_Click(object sender, EventArgs e)
-        {
-            lBFile.Items.Clear();
-            lBMode.Items.Clear();
-        }
  
         private void bgWDoWork_DoWork(object sender, DoWorkEventArgs e)
         {
@@ -602,10 +575,6 @@ int     stt         = 0;
                 pBProgress.Value = e.ProgressPercentage;
                 lbProgress.Text = e.UserState as string;
             }
-            if (e.UserState is double)
-            {
-                tBAvg.Text = ((double)e.UserState).ToString();
-            }
         }
 
         private void bgWDoWork_RunWorkerCompleted(object sender, RunWorkerCompletedEventArgs e)
@@ -636,28 +605,6 @@ int     stt         = 0;
             }
         }
 
-        private void button1_Click(object sender, EventArgs e)
-        {
-            OpenFileDialog odlg = new OpenFileDialog();
-            if (odlg.ShowDialog() == DialogResult.OK)
-                tbvo.Text = odlg.FileName;
-
-        }
-
-        private void btnmode_Click(object sender, EventArgs e)
-        {
-            FolderBrowserDialog fdlg = new FolderBrowserDialog();
-            if (fdlg.ShowDialog() == DialogResult.OK)
-                tbmodeint.Text = fdlg.SelectedPath;
-        }
-
-        private void button3_Click(object sender, EventArgs e)
-        {
-            FolderBrowserDialog fdlg = new FolderBrowserDialog();
-            if (fdlg.ShowDialog() == DialogResult.OK)
-                tbdataint.Text = fdlg.SelectedPath;
-
-        }
-       
+         
     }
 }
