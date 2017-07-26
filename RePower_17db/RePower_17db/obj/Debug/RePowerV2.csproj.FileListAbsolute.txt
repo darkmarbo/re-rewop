@@ -1,0 +1,10 @@
+D:\newWork\合成部\能量调整\RePowerV2\bin\Debug\RePowerV.exe
+D:\newWork\合成部\能量调整\RePowerV2\bin\Debug\RePowerV.pdb
+D:\newWork\合成部\能量调整\RePowerV2\bin\Debug\AudioSuite.dll
+D:\newWork\合成部\能量调整\RePowerV2\bin\Debug\AudioSuite.xml
+D:\newWork\合成部\能量调整\RePowerV2\obj\Debug\ResolveAssemblyReference.cache
+D:\newWork\合成部\能量调整\RePowerV2\obj\Debug\RePowerV.FormMain.resources
+D:\newWork\合成部\能量调整\RePowerV2\obj\Debug\RePowerV.Properties.Resources.resources
+D:\newWork\合成部\能量调整\RePowerV2\obj\Debug\RePowerV2.csproj.GenerateResource.Cache
+D:\newWork\合成部\能量调整\RePowerV2\obj\Debug\RePowerV.exe
+D:\newWork\合成部\能量调整\RePowerV2\obj\Debug\RePowerV.pdb
